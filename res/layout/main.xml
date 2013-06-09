@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_message"
+            android:layout_gravity="center"/>
+    <LinearLayout android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/login_to_hitch"
+                android:id="@+id/next_button"
+                android:onClick="startLogin"
+                android:layout_weight="1"/>
+        <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/create_an_account"
+                android:id="@+id/next_button"
+                android:onClick="registerAccount"
+                android:layout_weight="1" />
+    </LinearLayout>
+</LinearLayout>
+

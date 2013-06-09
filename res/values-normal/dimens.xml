@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="small_margin">12dip</dimen>
+    <dimen name="normal_margin">17dip</dimen>
+    <dimen name="large_margin">25dip</dimen>
+
+    <dimen name="small_text">11dip</dimen>
+    <dimen name="normal_text">17dip</dimen>
+    <dimen name="large_text">25dip</dimen>
+	<dimen name="column_height">30dip</dimen>
+</resources>

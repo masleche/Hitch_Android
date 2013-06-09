@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content">
+
+    <!-- Register progress -->
+    <LinearLayout android:id="@+id/register_status"
+                  android:visibility="gone"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:gravity="center_horizontal"
+                  android:orientation="vertical">
+        <ProgressBar style="?android:attr/progressBarStyleLarge"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_marginBottom="8dp"/>
+        <TextView
+                android:id="@+id/register_status_message"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:fontFamily="sans-serif-light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="@string/register_progress_creating_account" />
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/register_form_view"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" android:layout_weight="1" android:minHeight="70dip">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_an_account"
+                android:id="@+id/RegisterAccountHeader"
+                android:layout_gravity="center|bottom"
+                android:layout_marginBottom="5dip" android:textSize="20dip"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1">
+
+        <EditText android:id="@+id/register_username" android:singleLine="true" android:maxLines="1"
+                  android:layout_width="fill_parent" android:layout_height="wrap_content"
+                  android:hint="@string/username"
+                  android:inputType="text" android:minWidth="200dip"/>
+
+        <EditText android:id="@+id/register_password"
+                  android:singleLine="true"
+                  android:maxLines="1"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:inputType="textPassword"
+                  android:hint="@string/prompt_password"
+                  android:layout_gravity="center"
+                  android:minWidth="200dip"/>
+        <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/register_email"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:minWidth="200dip"/>
+        <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/register_fullname"
+                android:hint="Full Name"
+                android:inputType="textPersonName"
+                android:minWidth="200dip"/>
+        <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/register_phone"
+                android:hint="Phone Number"
+                android:inputType="phone"
+                android:minWidth="200dip"/>
+        <Spinner
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/location_spinner"
+                android:layout_gravity="right|center_vertical"
+                android:spinnerMode="dropdown" />
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" android:layout_weight="1">
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cancel"
+                android:id="@+id/cancel_button"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/submit"
+                android:id="@+id/submit_form_button"/>
+    </LinearLayout>
+</LinearLayout>

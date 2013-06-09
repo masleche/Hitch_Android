@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_Homescreen"
+          android:title="My Homescreen"
+            />
+    <item android:id="@+id/menu_EditProfile"
+          android:title="Edit Profile"
+          android:showAsAction="ifRoom|withText"
+          android:icon="@drawable/content_edit"
+            />
+    <item android:id="@+id/menu_Logout"
+          android:title="Log out"
+
+            />
+    <item android:id="@+id/menuExit"
+          android:icon="@android:drawable/ic_lock_power_off"
+          android:title="Exit"
+          android:showAsAction="ifRoom|withText"
+            />
+</menu>
