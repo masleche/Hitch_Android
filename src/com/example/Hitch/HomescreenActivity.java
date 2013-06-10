@@ -1,9 +1,10 @@
 package com.example.Hitch;
 
 import android.app.Activity;
-import android.app.FragmentManager;
-import android.app.FragmentTransaction;
 import android.os.Bundle;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentTransaction;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -16,7 +17,7 @@ import android.widget.ImageView;
  * Time: 4:48 PM
  * To change this template use File | Settings | File Templates.
  */
-public class HomescreenActivity extends Activity {
+public class HomescreenActivity extends FragmentActivity {
 
 
 
@@ -25,19 +26,24 @@ public class HomescreenActivity extends Activity {
 
         setContentView(R.layout.user_homescreen);
         //get my fragments
-        SearchOptionsFragment searchOptionsFragment = new SearchOptionsFragment();
-        UserFragment userFragment = new UserFragment();
-        //get fragmentmngr and begin a transaction
-        FragmentManager fragmentManager = getFragmentManager();
-        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-        fragmentTransaction.replace(android.R.id.content, userFragment);
-        fragmentTransaction.addToBackStack("User");
-        fragmentTransaction.add(searchOptionsFragment, "UserSearchOptions");
-        fragmentTransaction.commit();
 
+        if (findViewById(R.id.fragment_container_1) != null) {
+            SearchOptionsFragment searchOptionsFragment = new SearchOptionsFragment();
+            UserFragment userFragment = new UserFragment();
+            //get fragmentmngr and begin a transaction
+            if(savedInstanceState!= null) {
+                return;
+            }
+            FragmentManager fragmentManager = getSupportFragmentManager();
+            FragmentTransaction ft = fragmentManager.beginTransaction();
+            ft.add(R.id.fragment_container_1, userFragment, "User Info").commit();
+            //FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+
+            ft = getSupportFragmentManager().beginTransaction();
+            ft.add(R.id.fragment_container_2, searchOptionsFragment, "UserSearchOptions").commit();
+        }
     }
 
-    @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.main_menu, menu);

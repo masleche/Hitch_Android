@@ -1,11 +1,11 @@
 package com.example.Hitch;
 
-import android.app.*;
 import android.content.DialogInterface;
 import android.content.SharedPreferences;
 import android.content.res.Resources;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
 import android.view.*;
 import android.widget.*;
 import com.parse.*;
