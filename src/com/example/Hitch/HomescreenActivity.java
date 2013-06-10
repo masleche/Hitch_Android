@@ -24,12 +24,15 @@ public class HomescreenActivity extends Activity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.user_homescreen);
-
+        //get my fragments
+        SearchOptionsFragment searchOptionsFragment = new SearchOptionsFragment();
         UserFragment userFragment = new UserFragment();
+        //get fragmentmngr and begin a transaction
         FragmentManager fragmentManager = getFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
         fragmentTransaction.replace(android.R.id.content, userFragment);
         fragmentTransaction.addToBackStack("User");
+        fragmentTransaction.add(searchOptionsFragment, "UserSearchOptions");
         fragmentTransaction.commit();
 
     }

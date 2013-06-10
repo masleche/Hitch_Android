@@ -17,4 +17,9 @@
     <string name="login_error">Login Error:</string><string name="forgot_password">Forgot Password?</string>
     <string name="USER_PRFERENCES">UserPreferences</string>
     <string name="submit">Subit</string>
+	<string name="search">Search</string>
+	<string name="dialog_search_options">How would you like to search?</string>
+	<string name="search_by_user">Search by User</string>
+	<string name="search_by_location">Search by Location</string>
+	<string name="search_near_me">Search near me</string>
 </resources>

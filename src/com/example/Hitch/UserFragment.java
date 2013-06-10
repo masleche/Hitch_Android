@@ -1,15 +1,13 @@
 package com.example.Hitch;
 
-import android.app.Fragment;
+import android.app.*;
+import android.content.DialogInterface;
 import android.content.SharedPreferences;
 import android.content.res.Resources;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.*;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
-import android.widget.TextView;
-import android.widget.Toast;
+import android.widget.*;
 import com.parse.*;
 
 import java.util.List;
@@ -35,6 +33,8 @@ public class UserFragment extends Fragment {
     private TextView mEmailView;
 
     private View mFragmentView;
+
+    private Button mSearchButton;
 
     private SharedPreferences _UserInfo;
 
@@ -74,42 +74,14 @@ public class UserFragment extends Fragment {
             mLocationView.setText(_UserInfo.getString("locationName", ""));
         }
 
-
-
-        /*
-        Resources resources = getResources();
-        LinearLayout.LayoutParams layoutParams =
-                new LinearLayout.LayoutParams(
-                        LinearLayout.LayoutParams.WRAP_CONTENT,
-                        LinearLayout.LayoutParams.WRAP_CONTENT);
-        layoutParams.gravity = Gravity.CENTER_HORIZONTAL;
-        layoutParams.setMargins(0, (int) resources.getDimension(R.dimen.normal_margin), 0, 0);
-        mUsernameView.setTextSize(resources.getDimension(R.dimen.normal_text));
-        mUsernameView.setLayoutParams(layoutParams);
-        mUsernameView.setGravity(Gravity.BOTTOM);
-
-        //View avatar_container = mFragmentView.findViewById(R.id.avatar_container);
-
-        layoutParams.gravity = Gravity.CENTER_VERTICAL;
-        layoutParams.setMargins(0, 0, (int) resources.getDimension(R.dimen.small_margin), 0);
-        view.findViewById(R.id.email_icon).setLayoutParams(layoutParams);
-        view.findViewById(R.id.location_icon).setLayoutParams(layoutParams);
-        view.findViewById(R.id.person_icon).setLayoutParams(layoutParams);
-        view.findViewById(R.id.phone_icon).setLayoutParams(layoutParams);
-
-
-
-        mLocationView.setTextSize(resources.getDimension(R.dimen.normal_text));
-        mPhoneView.setTextSize(resources.getDimension(R.dimen.normal_text));
-        mEmailView.setTextSize(resources.getDimension(R.dimen.normal_text));
-        mNameView.setTextSize(resources.getDimension(R.dimen.large_text));
-        */
         mUserImageView.setImageResource(R.drawable.images);
 
         mUsernameView.setText(_UserInfo.getString("username", ""));
         mNameView.setText(_UserInfo.getString("fullName", ""));
         mPhoneView.setText(_UserInfo.getString("phoneNumber", ""));
         mEmailView.setText(_UserInfo.getString("email", ""));
+
+
 
         return view;
     }
