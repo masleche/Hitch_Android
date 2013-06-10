@@ -50,7 +50,7 @@
         <EditText android:id="@+id/register_username" android:singleLine="true" android:maxLines="1"
                   android:layout_width="fill_parent" android:layout_height="wrap_content"
                   android:hint="@string/username"
-                  android:inputType="text" android:minWidth="200dip"/>
+                  android:inputType="text" android:minWidth="@dimen/normal_width"/>
 
         <EditText android:id="@+id/register_password"
                   android:singleLine="true"
@@ -60,28 +60,28 @@
                   android:inputType="textPassword"
                   android:hint="@string/prompt_password"
                   android:layout_gravity="center"
-                  android:minWidth="200dip"/>
+                  android:minWidth="@dimen/normal_width"/>
         <EditText
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/register_email"
                 android:hint="Email"
                 android:inputType="textEmailAddress"
-                android:minWidth="200dip"/>
+                android:minWidth="@dimen/normal_width"/>
         <EditText
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/register_fullname"
                 android:hint="Full Name"
                 android:inputType="textPersonName"
-                android:minWidth="200dip"/>
+                android:minWidth="@dimen/normal_width"/>
         <EditText
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/register_phone"
                 android:hint="Phone Number"
                 android:inputType="phone"
-                android:minWidth="200dip"/>
+                android:minWidth="@dimen/normal_width"/>
         <Spinner
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"

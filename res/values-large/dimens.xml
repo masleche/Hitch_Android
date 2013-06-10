@@ -7,5 +7,9 @@
 	<dimen name="small_text">10dip</dimen>
 	<dimen name="normal_text">20dip</dimen>
 	<dimen name="large_text">30dip</dimen>
+
+    <dimen name="normal_width">200dip</dimen>
 	<dimen name="column_height">50dip</dimen>
+    <dimen name="large_width">300dip</dimen>
+
 </resources>

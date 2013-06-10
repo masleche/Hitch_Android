@@ -8,24 +8,36 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/welcome_message"
-            android:layout_gravity="center"/>
-    <LinearLayout android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:id="@+id/welcome_title"
+            android:textSize="@dimen/large_text"
+
+            />
+    <LinearLayout android:orientation="vertical"
             android:layout_width="fill_parent"
-            android:layout_height="fill_parent">
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1">
         <Button
-                android:layout_width="fill_parent"
+                android:layout_marginTop="@dimen/large_margin"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
                 android:text="@string/login_to_hitch"
                 android:id="@+id/next_button"
                 android:onClick="startLogin"
-                android:layout_weight="1"/>
+                android:minWidth="@dimen/large_width"
+                android:drawableLeft="@drawable/social_person"/>
         <Button
-                android:layout_width="fill_parent"
+                android:layout_marginTop="@dimen/small_margin"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/create_an_account"
+                android:layout_gravity="center_horizontal"
                 android:id="@+id/next_button"
+                android:minWidth="@dimen/large_width"
                 android:onClick="registerAccount"
-                android:layout_weight="1" />
+                android:drawableLeft="@drawable/social_add_person"/>
     </LinearLayout>
 </LinearLayout>
 

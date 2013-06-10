@@ -8,4 +8,8 @@
     <dimen name="normal_text">17dip</dimen>
     <dimen name="large_text">25dip</dimen>
 	<dimen name="column_height">30dip</dimen>
+
+    <dimen name="normal_width">100dip</dimen>
+    <dimen name="large_width">200dip</dimen>
+
 </resources>
