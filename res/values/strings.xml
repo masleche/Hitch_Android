@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Hitch</string>
-    <string name="welcome_message">Hello World, HitchApp</string>
+    <string name="welcome_message">Welcome to Hitch!</string>
     <string name="success">Login Successful!</string>
     <string name="username">Username</string>
     <string name="PromptUsername">Enter a username...</string>
