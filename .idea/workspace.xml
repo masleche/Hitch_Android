@@ -56,13 +56,7 @@
   <component name="ChangeListManager">
     <list id="d762504d-3980-47bc-8ae3-fdde6420cf5a" name="Default" comment="" />
     <list default="true" id="6eca9e91-6770-43ca-a951-44fa1392b6b1" name="cleaning up and going to bed  fixed up some more cross platform formatting issues (cherry picked from commit 3cb5abf)" comment="Testing">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/android_support_v4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hitch.iml" afterPath="$PROJECT_DIR$/Hitch.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/Hitch/HomescreenActivity.java" afterPath="$PROJECT_DIR$/src/com/example/Hitch/HomescreenActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/Hitch/SearchOptionsFragment.java" afterPath="$PROJECT_DIR$/src/com/example/Hitch/SearchOptionsFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/Hitch/UserFragment.java" afterPath="$PROJECT_DIR$/src/com/example/Hitch/UserFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/user_homescreen.xml" afterPath="$PROJECT_DIR$/res/layout/user_homescreen.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/user_info_fragment.xml" afterPath="$PROJECT_DIR$/res/layout/user_info_fragment.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Hitch.iws" />
@@ -153,7 +147,7 @@
     <file path="/MyActivity.java" changelist="d762504d-3980-47bc-8ae3-fdde6420cf5a" time="1370773564862" ignored="false" />
     <file path="/fragment.java" changelist="6eca9e91-6770-43ca-a951-44fa1392b6b1" time="1370845812477" ignored="false" />
     <file path="/LoginActivity.java" changelist="d762504d-3980-47bc-8ae3-fdde6420cf5a" time="1370771797030" ignored="false" />
-    <file path="/Dummy.txt" changelist="6eca9e91-6770-43ca-a951-44fa1392b6b1" time="1370841169906" ignored="false" />
+    <file path="/Dummy.txt" changelist="6eca9e91-6770-43ca-a951-44fa1392b6b1" time="1370910030306" ignored="false" />
     <file path="/a.xml" changelist="d762504d-3980-47bc-8ae3-fdde6420cf5a" time="1370771673556" ignored="false" />
     <file path="/Success.java" changelist="d762504d-3980-47bc-8ae3-fdde6420cf5a" time="1369981895975" ignored="false" />
     <file path="/RegisterActivity.java" changelist="d762504d-3980-47bc-8ae3-fdde6420cf5a" time="1370773901087" ignored="false" />
@@ -176,7 +170,7 @@
     <file path="/user_form_fragment.xml" changelist="d762504d-3980-47bc-8ae3-fdde6420cf5a" time="1370771597233" ignored="false" />
     <file path="/arrays.xml" changelist="6eca9e91-6770-43ca-a951-44fa1392b6b1" time="1370839090958" ignored="false" />
     <file path="/SearchOptionsDialogFragment.java" changelist="6eca9e91-6770-43ca-a951-44fa1392b6b1" time="1370842291420" ignored="false" />
-    <file path="/SearchOptionsFragment.java" changelist="6eca9e91-6770-43ca-a951-44fa1392b6b1" time="1370845012933" ignored="false" />
+    <file path="/SearchOptionsFragment.java" changelist="6eca9e91-6770-43ca-a951-44fa1392b6b1" time="1370846663919" ignored="false" />
     <file path="$PROJECT_DIR$/gen/com/example/Hitch/R.java" changelist="6eca9e91-6770-43ca-a951-44fa1392b6b1" time="1370843379121" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -264,9 +258,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/example/Hitch/UserFragment.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="19" column="42" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -275,17 +267,15 @@
         <entry file="file://$PROJECT_DIR$/src/com/example/Hitch/HomescreenActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="28" column="35" selection-start="749" selection-end="812" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearchOptionsFragment.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="SearchOptionsFragment.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/Hitch/SearchOptionsFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="51" selection-start="628" selection-end="628" vertical-scroll-proportion="0.0">
+            <state line="25" column="4" selection-start="632" selection-end="632" vertical-scroll-proportion="0.5586592">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -296,7 +286,7 @@
       <file leaf-file-name="user_form_fragment.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/user_form_fragment.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="47" selection-start="2104" selection-end="2104" vertical-scroll-proportion="11.64">
+            <state line="44" column="47" selection-start="2104" selection-end="2104" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -308,7 +298,7 @@
       <file leaf-file-name="user_info_fragment.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/user_info_fragment.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="-0.22666667">
+            <state line="1" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -317,10 +307,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user_homescreen.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="user_homescreen.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/user_homescreen.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="44" selection-start="202" selection-end="202" vertical-scroll-proportion="0.13963039">
+            <state line="4" column="44" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -332,7 +322,7 @@
       <file leaf-file-name="search_options_fragment.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/search_options_fragment.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="33" selection-start="880" selection-end="880" vertical-scroll-proportion="-6.8">
+            <state line="20" column="33" selection-start="880" selection-end="880" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -386,9 +376,9 @@
         <option value="$PROJECT_DIR$/res/layout/SearchOptionsFragment.xml" />
         <option value="$PROJECT_DIR$/res/layout/user_info_fragment.xml" />
         <option value="$PROJECT_DIR$/src/com/example/Hitch/UserFragment.java" />
-        <option value="$PROJECT_DIR$/src/com/example/Hitch/SearchOptionsFragment.java" />
         <option value="$PROJECT_DIR$/src/com/example/Hitch/HomescreenActivity.java" />
         <option value="$PROJECT_DIR$/res/layout/user_homescreen.xml" />
+        <option value="$PROJECT_DIR$/src/com/example/Hitch/SearchOptionsFragment.java" />
       </list>
     </option>
   </component>
@@ -396,7 +386,7 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1672" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1696" />
     <option name="height" value="1026" />
@@ -514,14 +504,14 @@
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="63" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="63" />
-    <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="63" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="recentsLimit" value="5" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="63" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="C:/Program Files (x86)/Android/android-studio/sdk/extras/android/support/v4/android-support-v4.jar!/" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="63" />
@@ -538,8 +528,8 @@
     <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
@@ -595,19 +585,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -634,6 +611,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -821,38 +811,38 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1672" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13463892" sideWeight="0.67281103" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32949308" sideWeight="0.61580884" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.249694" sideWeight="0.6705069" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32873562" sideWeight="0.6150551" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.6705069" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.6705069" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32718894" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.249694" sideWeight="0.6705069" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2937788" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32873562" sideWeight="0.38433293" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.6705069" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328341" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.6705069" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32949308" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19178921" sideWeight="0.67281103" order="3" side_tool="false" content_ui="combo" x="1894" y="165" width="315" height="584" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32718894" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1627907" sideWeight="0.67281103" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.6705069" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.6002304" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32949308" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2937788" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3248848" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32949308" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32949308" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24754901" sideWeight="0.67281103" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.6705069" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19155447" sideWeight="0.67126435" order="3" side_tool="false" content_ui="combo" x="1894" y="165" width="315" height="584" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32718894" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13463892" sideWeight="0.67281103" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32949308" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1627907" sideWeight="0.67281103" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.6002304" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32949308" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3248848" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -935,37 +925,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/res/values-small/dimens.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="33" selection-start="342" selection-end="342" vertical-scroll-proportion="-6.12">
-          <folding />
-        </state>
+        <state line="9" column="33" selection-start="342" selection-end="342" vertical-scroll-proportion="-6.12" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/values-xlarge/dimens.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="55" selection-start="373" selection-end="373" vertical-scroll-proportion="0.32015067">
-          <folding />
-        </state>
+        <state line="10" column="55" selection-start="373" selection-end="373" vertical-scroll-proportion="0.32015067" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/values-normal/dimens.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="33" selection-start="175" selection-end="175" vertical-scroll-proportion="-2.72">
-          <folding />
-        </state>
+        <state line="4" column="33" selection-start="175" selection-end="175" vertical-scroll-proportion="-2.72" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/values/arrays.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="21" selection-start="177" selection-end="177" vertical-scroll-proportion="-3.4">
-          <folding />
-        </state>
+        <state line="5" column="21" selection-start="177" selection-end="177" vertical-scroll-proportion="-3.4" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/values-large/dimens.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="42" selection-start="299" selection-end="342" vertical-scroll-proportion="-5.44">
-          <folding />
-        </state>
+        <state line="8" column="42" selection-start="299" selection-end="342" vertical-scroll-proportion="-5.44" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/Hitch/RegisterActivity.java">
@@ -984,36 +964,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/user_form_fragment.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="47" selection-start="2104" selection-end="2104" vertical-scroll-proportion="11.64">
+        <state line="44" column="47" selection-start="2104" selection-end="2104" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/search_options_fragment.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="33" selection-start="880" selection-end="880" vertical-scroll-proportion="-6.8">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/Hitch/SearchOptionsFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="51" selection-start="628" selection-end="628" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/user_info_fragment.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="-0.22666667">
+        <state line="1" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1023,32 +984,45 @@
     </entry>
     <entry file="jar://C:/Program Files (x86)/Android/android-studio/sdk/extras/android/support/v4/android-support-v4.jar!/android/support/v4/app/FragmentManager.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="22" selection-start="174" selection-end="174" vertical-scroll-proportion="0.16601562">
-          <folding />
-        </state>
+        <state line="6" column="22" selection-start="174" selection-end="174" vertical-scroll-proportion="0.16601562" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/Hitch/HomescreenActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="35" selection-start="749" selection-end="812" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/Hitch/UserFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="42" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/user_homescreen.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="44" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/Hitch/SearchOptionsFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="4" selection-start="632" selection-end="632" vertical-scroll-proportion="0.5586592">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/user_homescreen.xml">
+    <entry file="file://$PROJECT_DIR$/res/layout/search_options_fragment.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="44" selection-start="202" selection-end="202" vertical-scroll-proportion="0.13963039">
+        <state line="20" column="33" selection-start="880" selection-end="880" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

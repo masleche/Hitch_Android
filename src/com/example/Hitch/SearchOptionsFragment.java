@@ -23,6 +23,7 @@ import com.parse.Parse;
 
 public class SearchOptionsFragment extends Fragment {
 
+
     private SharedPreferences _UserInfo;
     private View mFragmentView;
 
