@@ -26,10 +26,15 @@
         </activity>
         <activity android:name=".HomescreenActivity"
                   android:label="Homescreen"
-                />
+                >
+        </activity>
+
         <activity android:name=".RegisterActivity"
                   android:parentActivityName="com.example.Hitch.MyActivity"
-                />
+                >
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                       android:value="com.example.Hitch.MyActivity" />
+        </activity>
 
 
     </application>

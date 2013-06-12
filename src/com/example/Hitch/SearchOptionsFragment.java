@@ -5,6 +5,7 @@ import android.app.Dialog;
 import android.app.DialogFragment;
 import android.content.DialogInterface;
 import android.content.SharedPreferences;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -41,8 +42,15 @@ public class SearchOptionsFragment extends Fragment {
 
         mFragmentView = inflater.inflate(R.layout.search_options_fragment, container, false);
 
+        mSearchLocation = (Button) mFragmentView.findViewById(R.id.search_by_location_btn);
+        mSearchUser = (Button) mFragmentView.findViewById(R.id.search_by_user_btn);
+        mSearchNearMe = (Button) mFragmentView.findViewById(R.id.search_near_me_btn);
 
+        Typeface tf = Typeface.createFromAsset(getActivity().getAssets(), "fonts/Roboto-Light.ttf");
 
+        mSearchLocation.setTypeface(tf);
+        mSearchUser.setTypeface(tf);
+        mSearchNearMe.setTypeface(tf);
 
         return mFragmentView;
     }

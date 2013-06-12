@@ -5,12 +5,23 @@
               android:layout_height="fill_parent"
         >
     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_message"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="@dimen/large_margin"
+        android:layout_marginTop="@dimen/large_margin"
+        android:id="@+id/welcome_title"
+        android:textSize="@dimen/large_text"
+
+        />
+    <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/welcome_message"
-            android:layout_gravity="center"
-            android:id="@+id/welcome_title"
-            android:textSize="@dimen/large_text"
+            android:text="@string/app_name"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/app_name"
+            android:textSize="@dimen/xlarge_text"
 
             />
     <LinearLayout android:orientation="vertical"
@@ -24,7 +35,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:text="@string/login_to_hitch"
-                android:id="@+id/next_button"
+                android:id="@+id/start_login_button"
                 android:onClick="startLogin"
                 android:minWidth="@dimen/large_width"
                 android:drawableLeft="@drawable/social_person"/>
@@ -34,7 +45,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/create_an_account"
                 android:layout_gravity="center_horizontal"
-                android:id="@+id/next_button"
+                android:id="@+id/start_register_button"
                 android:minWidth="@dimen/large_width"
                 android:onClick="registerAccount"
                 android:drawableLeft="@drawable/social_add_person"/>

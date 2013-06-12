@@ -7,6 +7,7 @@ import android.annotation.TargetApi;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Typeface;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
@@ -57,6 +58,8 @@ public class LoginActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+
 
         homescreen_intent = new Intent(this, HomescreenActivity.class);
         register_intent = new Intent(this, RegisterActivity.class);
@@ -228,8 +231,11 @@ public class LoginActivity extends Activity {
                                 .putString("email", user.getEmail())
                                 .commit();
 
+
+                        homescreen_intent.addFlags(Intent.FLAG_ACTIVITY_TASK_ON_HOME);
                         homescreen_intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                         homescreen_intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                        showProgress(false);
                         startActivity(homescreen_intent);
                     } else if (parseUser == null) {
                         Log.d("Hitch:Login", "Bad Username/Password");

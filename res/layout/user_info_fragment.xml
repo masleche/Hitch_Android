@@ -102,7 +102,7 @@
                             android:layout_gravity="center_vertical"
                             android:id="@+id/phone_icon"
                             android:layout_marginRight="@dimen/small_margin"
-                            />
+                            android:contentDescription="User phone number"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"

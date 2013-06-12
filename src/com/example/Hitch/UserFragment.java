@@ -3,6 +3,7 @@ package com.example.Hitch;
 import android.content.DialogInterface;
 import android.content.SharedPreferences;
 import android.content.res.Resources;
+import android.graphics.Typeface;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -64,6 +65,7 @@ public class UserFragment extends Fragment {
         findAllUserViews(view);
 
 
+
         _UserInfo = this.getActivity().getSharedPreferences(getString(R.string.USER_PRFERENCES), 0);
 
         String locationName = _UserInfo.getString("locationName", "");
@@ -74,12 +76,21 @@ public class UserFragment extends Fragment {
             mLocationView.setText(_UserInfo.getString("locationName", ""));
         }
 
+
         mUserImageView.setImageResource(R.drawable.images);
 
         mUsernameView.setText(_UserInfo.getString("username", ""));
         mNameView.setText(_UserInfo.getString("fullName", ""));
         mPhoneView.setText(_UserInfo.getString("phoneNumber", ""));
         mEmailView.setText(_UserInfo.getString("email", ""));
+
+        Typeface tf = Typeface.createFromAsset(getActivity().getAssets(), "fonts/Roboto-Light.ttf");
+
+        mLocationView.setTypeface(tf);
+        mUsernameView.setTypeface(tf);
+        mNameView.setTypeface(tf);
+        mPhoneView.setTypeface(tf);
+        mEmailView.setTypeface(tf);
 
 
 

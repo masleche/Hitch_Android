@@ -4,9 +4,11 @@
     <dimen name="normal_margin">30dip</dimen>
     <dimen name="large_margin">50dip</dimen>
 
-    <dimen name="small_text">20dip</dimen>
-    <dimen name="normal_text">30dip</dimen>
-    <dimen name="large_text">40dip</dimen>
+    <dimen name="small_text">40dip</dimen>
+    <dimen name="normal_text">50dip</dimen>
+    <dimen name="large_text">60dip</dimen>
+    <dimen name="xlarge_text">70dip</dimen>
+
 	<dimen name="column_height">60dip</dimen>
 
     <dimen name="normal_width">300dip</dimen>

@@ -7,6 +7,7 @@ import android.annotation.TargetApi;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Typeface;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
@@ -26,7 +27,9 @@ import java.util.List;
  * Time: 2:27 AM
  */
 public class RegisterActivity extends Activity {
-   
+
+
+    private TextView mRegisterTitleView;
     private EditText mUsernameView;
     private EditText mPasswordView;
     private EditText mEmailView;
@@ -85,7 +88,10 @@ public class RegisterActivity extends Activity {
 
         _LocationAdapter.add(new Location("-1", "Please select a location.", false));
 
+        Typeface tf = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Light.ttf");
 
+        mRegisterTitleView = (TextView) findViewById(R.id.register_account_title);
+        mRegisterTitleView.setTypeface(tf);
 
         mUsernameView = (EditText) findViewById(R.id.register_username);
         mPasswordView = (EditText) findViewById(R.id.register_password);
@@ -269,8 +275,11 @@ public class RegisterActivity extends Activity {
                     Log.d("Hitch:RegisterAccount", "SignupDone");
                     if(e==null) {
 
+
+                        homescreen_intent.addFlags(Intent.FLAG_ACTIVITY_TASK_ON_HOME);
                         homescreen_intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                         homescreen_intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                        showProgress(false);
                         startActivity(homescreen_intent);
                     }
                     else {

@@ -7,6 +7,8 @@
     <dimen name="small_text">5dip</dimen>
     <dimen name="normal_text">5dip</dimen>
     <dimen name="large_text">5dip</dimen>
+    <dimen name="xlarge_text">30dip</dimen>
+
 	<dimen name="column_height">20dip</dimen>
 
     <dimen name="normal_width">50dip</dimen>
