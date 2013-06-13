@@ -1,6 +1,7 @@
 package com.example.Hitch;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentActivity;
@@ -18,6 +19,7 @@ import android.widget.ImageView;
  * To change this template use File | Settings | File Templates.
  */
 public class HomescreenActivity extends FragmentActivity {
+
 
 
 
@@ -59,6 +61,11 @@ public class HomescreenActivity extends FragmentActivity {
         switch (itemId) {
             case R.id.menu_EditProfile:
                 handled = true;
+
+                Intent editProfileIntent = new Intent(this, EditProfileActivity.class);
+                editProfileIntent.setAction("ACTION_EDIT_USER");
+                startActivity(editProfileIntent);
+
                 break;
             case R.id.menu_Homescreen:
                 handled = true;

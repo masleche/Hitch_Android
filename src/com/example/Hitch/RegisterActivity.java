@@ -88,7 +88,7 @@ public class RegisterActivity extends Activity {
 
         _LocationAdapter.add(new Location("-1", "Please select a location.", false));
 
-        Typeface tf = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Light.ttf");
+        Typeface tf = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Condensed.ttf");
 
         mRegisterTitleView = (TextView) findViewById(R.id.register_account_title);
         mRegisterTitleView.setTypeface(tf);
@@ -303,7 +303,9 @@ public class RegisterActivity extends Activity {
         }
     }
 
-    private class GetAllLocationsTask extends AsyncTask<Void, Void, Void> {
+
+
+    public class GetAllLocationsTask extends AsyncTask<Void, Void, Void> {
 
         protected ArrayList<Location> _AllLocations = null;
 
@@ -346,7 +348,7 @@ public class RegisterActivity extends Activity {
         }
 
         protected void locationsLoaded(ArrayList<Location> locations) {
-             if(locations.size() > 0) {
+            if(locations.size() > 0) {
                 Collections.sort(locations);
                 _AllLocations = locations;
                 Log.d("Hitch:RegisterAccount", "Success! Found: " + _AllLocations.size() + " locations");
@@ -359,4 +361,6 @@ public class RegisterActivity extends Activity {
             }
         }
     }
+
+
 }

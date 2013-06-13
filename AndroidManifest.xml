@@ -35,6 +35,7 @@
             <meta-data android:name="android.support.PARENT_ACTIVITY"
                        android:value="com.example.Hitch.MyActivity" />
         </activity>
+	    <activity android:name=".EditProfileActivity"/>
 
 
     </application>
