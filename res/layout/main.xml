@@ -9,8 +9,8 @@
         android:layout_height="wrap_content"
         android:text="@string/welcome_message"
         android:layout_gravity="center_horizontal"
-        android:layout_marginRight="@dimen/large_margin"
-        android:layout_marginTop="@dimen/large_margin"
+        android:layout_marginRight="@dimen/xlarge_margin"
+        android:layout_marginTop="@dimen/xlarge_margin"
         android:id="@+id/welcome_title"
         android:textSize="@dimen/large_text"
 
@@ -30,7 +30,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_weight="1">
         <Button
-                android:layout_marginTop="@dimen/large_margin"
+                android:layout_marginTop="@dimen/xlarge_margin"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"

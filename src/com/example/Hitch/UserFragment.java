@@ -84,11 +84,13 @@ public class UserFragment extends Fragment {
         mPhoneView.setText(_UserInfo.getString("phoneNumber", ""));
         mEmailView.setText(_UserInfo.getString("email", ""));
 
+        Typeface tf_condensed = Typeface.createFromAsset(getActivity().getAssets(), "fonts/Roboto-Condensed.ttf");
+        mNameView.setTypeface(tf_condensed);
+
         Typeface tf = Typeface.createFromAsset(getActivity().getAssets(), "fonts/Roboto-Light.ttf");
 
         mLocationView.setTypeface(tf);
         mUsernameView.setTypeface(tf);
-        mNameView.setTypeface(tf);
         mPhoneView.setTypeface(tf);
         mEmailView.setTypeface(tf);
 

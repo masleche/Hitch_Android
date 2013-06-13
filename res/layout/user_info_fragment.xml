@@ -34,14 +34,14 @@
                     android:layout_width="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:gravity="bottom"
-                    android:textSize="@dimen/normal_text"
+                    android:textSize="@dimen/small_text"
                     android:id="@+id/display_username"
                     />
         </LinearLayout>
 	    <LinearLayout
                     android:layout_height="wrap_content"
-                    android:layout_width="0dp"
-                    android:layout_weight="3"
+                    android:layout_width="0dip"
+                    android:layout_weight="4"
                     android:orientation="vertical">
 
                 <LinearLayout
@@ -50,7 +50,7 @@
                         android:layout_height="fill_parent"
                         android:id="@+id/name_container"
                         >
-
+	                 <!--
                     <ImageView
                         android:layout_height="wrap_content"
                         android:layout_width="wrap_content"
@@ -58,11 +58,12 @@
                         android:layout_marginRight="@dimen/small_margin"
                         android:id="@+id/person_icon"
                         android:contentDescription="Name Field"/>
+                        -->
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
-                        android:textSize="@dimen/large_text"
+                        android:textSize="@dimen/normal_text"
                         android:id="@+id/display_name"/>
 
                 </LinearLayout>
@@ -72,6 +73,7 @@
                         android:layout_width="match_parent"
                         android:orientation="horizontal"
                         android:id="@+id/location_container"
+                        android:layout_marginTop="@dimen/small_margin"
                         >
                     <ImageView
                             android:layout_height="wrap_content"
@@ -86,7 +88,7 @@
                         android:layout_height="wrap_content"
                         android:id="@+id/display_location"
                         android:layout_gravity="center_vertical"
-                        android:textSize="@dimen/normal_text"
+                        android:textSize="@dimen/small_text"
                             />
                 </LinearLayout>
                 <LinearLayout
@@ -108,7 +110,7 @@
                         android:layout_height="wrap_content"
                         android:id="@+id/display_phone"
                         android:layout_gravity="center_vertical"
-                        android:textSize="@dimen/normal_text"
+                        android:textSize="@dimen/small_text"
                     />
                 </LinearLayout>
                 <LinearLayout
@@ -128,7 +130,7 @@
                     <TextView
                         android:layout_height="wrap_content"
                         android:layout_width="wrap_content"
-                        android:textSize="@dimen/normal_text"
+                        android:textSize="@dimen/small_text"
                         android:layout_gravity="center_vertical"
                         android:id="@+id/display_email"/>
                 </LinearLayout>

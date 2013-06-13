@@ -31,20 +31,23 @@
             android:id="@+id/register_form_view"
             android:orientation="horizontal"
             android:layout_width="fill_parent"
-            android:layout_height="fill_parent" android:layout_weight="1" android:minHeight="70dip">
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:minHeight="70dip">
         <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/create_an_account"
                 android:id="@+id/register_account_title"
-                android:layout_marginLeft="@dimen/normal_margin"
+                android:layout_marginLeft="@dimen/small_margin"
                 android:layout_gravity="center|bottom"
-                android:textSize="@dimen/large_text"/>
+                android:textSize="@dimen/normal_text"/>
     </LinearLayout>
     <LinearLayout
-            android:layout_marginTop="@dimen/large_margin"
+            android:layout_marginTop="@dimen/xlarge_margin"
             android:orientation="vertical"
             android:layout_width="wrap_content"
+            android:minWidth="@dimen/large_width"
             android:layout_height="match_parent"
             android:layout_gravity="center"
             android:layout_weight="1">
@@ -72,12 +75,12 @@
                 android:inputType="textEmailAddress"
                 android:minWidth="@dimen/normal_width"/>
         <EditText
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/register_fullname"
-            android:hint="Full Name"
-            android:inputType="textPersonName"
-            android:minWidth="@dimen/normal_width"/>
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:id="@+id/register_fullname"
+	            android:hint="Full Name"
+	            android:inputType="textPersonName"
+	            android:minWidth="@dimen/normal_width"/>
         <EditText
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
@@ -94,13 +97,13 @@
                 android:spinnerMode="dropdown" />
     </LinearLayout>
     <LinearLayout
-            android:layout_marginTop="@dimen/large_margin"
-            android:orientation="horizontal"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_weight="1"
-            android:layout_gravity="center_horizontal"
-            android:gravity="center">
+        android:layout_marginTop="@dimen/xlarge_margin"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center">
 
         <Button
             android:layout_width="wrap_content"
@@ -110,11 +113,11 @@
             android:layout_gravity="center_horizontal"
             android:minWidth="@dimen/normal_width"/>
         <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/cancel"
-                android:id="@+id/cancel_button"
-                android:layout_gravity="center_horizontal"
-                android:minWidth="@dimen/normal_width"/>
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:id="@+id/cancel_button"
+            android:layout_gravity="center_horizontal"
+            android:minWidth="@dimen/normal_width"/>
     </LinearLayout>
 </LinearLayout>

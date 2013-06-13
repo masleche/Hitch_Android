@@ -2,15 +2,16 @@
 <resources>
 	<dimen name="small_margin">15dip</dimen>
 	<dimen name="normal_margin">30dip</dimen>
-	<dimen name="large_margin">50dip</dimen>
+	<dimen name="large_margin">45dip</dimen>
+	<dimen name="xlarge_margin">60dip</dimen>
 
-	<dimen name="small_text">20dip</dimen>
-	<dimen name="normal_text">30dip</dimen>
-	<dimen name="large_text">40dip</dimen>
-    <dimen name="xlarge_text">60dip</dimen>
+	<dimen name="small_text">25dip</dimen>
+	<dimen name="normal_text">45dip</dimen>
+	<dimen name="large_text">60dip</dimen>
+    <dimen name="xlarge_text">80dip</dimen>
 
     <dimen name="normal_width">200dip</dimen>
+	<dimen name="large_width">400dip</dimen>
 	<dimen name="column_height">50dip</dimen>
-    <dimen name="large_width">300dip</dimen>
 
 </resources>
